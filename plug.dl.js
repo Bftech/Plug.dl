@@ -1,4 +1,6 @@
 javascript: (
-function () {
+var bfFunc = function () {
 alert('test');
-})
+}
+bfFunc();
+)
