@@ -4,10 +4,11 @@ function () {
   //var yto = ytframe.getElementById('ytp');
   //var ytPlugAdd = yto.getAttribut('data').split('?')[0];
   //alert(ytPlugAdd);
+  var vidUrl = '';
   alert('test');
-  var bodyCode = document.body.innerHTML;
-  alert(bodycode);
-  var ytUrl = bodycode.split('ytp')[1].substring(7,36);
-  alert(ytUrl);
+  if ('1' === Playback.media.format) { // youtube
+        vidURL = 'http://www.youtube.com/watch?v=' + Playback.media.cid;
+  }
+  alert(vidURL);
 })();
 
