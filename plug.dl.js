@@ -1,6 +1,5 @@
 javascript: (
-var bfFunc = function () {
+function () {
   alert('test');
-};
-bfFunc();
-)
+})();
+
