@@ -12,7 +12,7 @@ Installation
 Just create a new bookmark with the code in the box bellox as Url
 
 ```
-javascript: (function () { var jsCode = document.createElement('script'); jsCode.setAttribute('src', 'https://raw.github.com/Bftech/Plug.dl/master/plug.dl.js'); document.body.appendChild(jsCode);}());
+javascript: (function () { var jsCode = document.createElement('script'); jsCode.setAttribute('src', 'https://raw.github.com/Bftech/Plug.dl/master/plugdl.js'); document.body.appendChild(jsCode);}());
 ```
 
 Contact
